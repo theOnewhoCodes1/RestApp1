@@ -3,7 +3,7 @@ const div = document.querySelector('.content');
 
 function Home(){
 
-
+    console.log('HELLO GIT');
     const indiv = document.createElement('div');
     indiv.classList.add('myhome');
 
