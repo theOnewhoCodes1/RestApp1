@@ -1,0 +1,219 @@
+*{
+
+    box-sizing: border-box;
+    /* font-family: "Poppins" , sans-serif; */
+    margin:0px;
+    padding: 0px;
+}
+body{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navbar{
+
+    background-color: black;
+
+}
+
+nav{
+
+    font-family: 'Times New Roman', Times, serif;
+
+    padding: 5px 20px;
+
+}
+
+li:hover
+{
+    /* kai to a mporousa */
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+ul .nameRest{
+    cursor:auto;
+    text-decoration: none;
+}
+
+li{    
+    list-style-type: none;
+    
+}
+
+ul .nameRest{
+
+    color: white; 
+    position: relative;
+    left: -40%;
+}
+ul .signUp{
+
+    color: white;
+    position: relative;
+    left: 40%;
+}
+
+li a {
+
+    text-decoration: none;
+    color:white;
+    
+}
+ul{
+
+    padding: 5px 15px;
+    font-size: 20px;
+
+}
+
+
+/* flex */
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+li{
+    margin : 10px;
+  
+}
+.content{
+
+    background: url("rest1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+.myhome{
+
+    color: white;
+    position: relative;
+    top: -20%;
+    padding: 5px;
+    backdrop-filter: blur(5px);
+}
+.myhome h3{
+
+    padding-left: 50px;
+}
+.mymenu{
+
+    
+    position: relative;
+    padding-left: 170px;
+    width: 600px;
+    color: beige;
+    backdrop-filter: blur(5px);
+
+}
+.mymenu p , .mymenu h1{
+
+    padding-left: 30px;
+}
+.mycontact{
+
+    color:white;
+    backdrop-filter: blur(5px);
+    position:  relative;
+    bottom:20%;
+}
+
+/* signup */
+
+.mytemplate{
+    border: 2px solid black;
+    /* na valw box shadow */
+    padding:15px;
+    height: 300px;
+    width:400px;
+    backdrop-filter: blur(20px);
+    position: relative;
+    bottom:15%;
+}
+.myhead h1{
+    color:white;
+}
+
+.myinputs{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    position: relative;
+    top : 6%;
+}
+
+.myinputs > input{
+    margin: 10px;
+    border-radius: 25px;
+    background:transparent;
+    backdrop-filter: blur(70px);
+    
+    
+}
+
+#username , #email , #pass{
+    
+    padding: 5px;
+    border: 2px solid white;
+}
+input::placeholder{
+    color: white;
+}
+input.invalid{
+    border : 2px solid red ;
+    background-color: #fdd;
+}
+input:valid{
+    background-color: transparent;
+}
+/* input:invalid{
+    background-image: linear-gradient(to right , pink , lightgreen);
+} */
+.ask{
+    color : white;
+    display: flex;
+    gap: 8px;
+    position: relative;
+    left: 8%;
+    top: 4%;
+    font-weight: bold;
+    margin: 10px;
+    
+    
+}
+.mybutton{
+    margin-top: 5px;
+    position: relative;
+    left : 80%;
+    font-size: 16px;
+    margin:5px;
+    
+}
+.mybutton button{
+    position: relative;
+    right : 60%;
+    margin-top: 15px;
+    width: 50%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
